@@ -1,0 +1,90 @@
+.container{
+    height: 856px;
+    width: 1192px;
+    background: #E5E5E5;
+    position: relative;
+}
+
+.container .empty{
+background: wheat;
+height: 50px;
+width: 50px;
+}
+.container .logo{
+position: absolute;
+left: 340px;
+top: 87px;
+}
+
+.container .data-container{
+position: absolute;
+width: 600px;
+height: 355px;
+left: 340px;
+top: 147px;
+
+background: #FFFFFF;
+border-radius: 6px;
+}
+
+.container .activate-button{
+    position: absolute;
+    width: 196px;
+    height: 50px;
+    left: 380px;
+    top: 412px;
+    background: #3D83F7;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.container .activate-button p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
+
+.container .whatsapp{
+    position: absolute;
+    left: 558.97px;
+    top: 544.66px;
+}
+.container .mail{
+    position: absolute;
+/* width: 30px;
+height: 15.27px; */
+left: 629px;
+top: 552.66px;
+}
+
+
+.container .linkedin{
+position: absolute;
+width: 32px;
+height: 32px;
+left: 699px;
+top: 546px;
+cursor: pointer;
+background: url("../assets/linkedin.png");
+}
+
+.container .title{
+position: absolute;
+width: 252px;
+height: 36px;
+left: 380px;
+top: 187px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 35px;
+
+color: #091F44;
+}
